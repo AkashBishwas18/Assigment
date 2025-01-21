@@ -1,3 +1,148 @@
-div{
-    background-color: brown;
+.Header-design{
+    background-color: white;
+    width: auto;
+}
+.Details{
+    margin-left: 110px;
+    padding: 5px;
+    list-style: none;
+    display: flex;
+}
+.items-1{
+    margin-left: 30px;
+    color:orange ;
+}
+.items-2{
+    margin-left: 30px;
+    color:skyblue ;
+}
+.items-3{
+    margin-left: 30px;
+    color: #05D4DF;
+}
+.items-4{
+    margin-left: 30px;
+    color: #5D58EF;
+}
+.header-btn{
+    margin-left: 120px;
+    width: 110px;
+    height: 30px;
+    align-items: center;
+    margin-top: 18px;
+    background-color: orange;
+    border: none;
+    border-radius: 5PX;
+   color: azure;
+}
+@media screen and (max-width:576xp) {
+   .Header-design{
+    flex-direction: column;
+   }
+}
+/*--- Section 2 Start --*/
+/*.row{
+    display: flex;
+    
+}
+.row-2{
+    margin-left: 500px;
+    height: 450px;
+    width: 400px;
+}
+.none{
+    grid-column: auto;
+    height: 200px;
+    width: 400px;
+}
+*/
+.section{
+    display: flex;
+    margin-left: 100px;
+}
+.image{
+    margin-left: 100px;
+    height: 400px;
+    width: 350px;
+}
+.data{
+    
+    margin-top: 80px;
+    margin-left: 0px;
+    
+}
+.data-1{
+    color:orange ;
+}
+.data-2{
+    color: skyblue;
+}
+.btn-2{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 120px;
+}
+/*--- Stanmdard Section --*/
+.mid{
+    text-align: center;
+    margin-top: 20px;
+}
+/* -- Carriculam Section start --*/
+.carriculam{
+    display: flex;
+    margin-left: 10px;
+    width: 850px;
+}
+.background-image{
+    height: 200px;
+    width: 900px;
+}
+.standard-1{
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    opacity: 0.6;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to bottom, rgb(212, 234, 255), white);
+
+}
+.standard-2{
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    opacity: 0.6;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to bottom, rgb(243, 223, 186), white);
+    margin-left: 10px;
+}
+.standard-3{
+    
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    opacity: 0.6;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to bottom, rgb(208, 176, 227), white);
+    margin-left: 10px;
+}
+/*-- button section --*/
+.new-btn{
+    text-align: center;
+    margin-top: 15px;
+}
+.unit{
+    background-color: orange;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: none;
+    color: aliceblue;
+}
+/* --- story Section --*/
+.stories{
+    text-align: center;
+    margin-top: 30px;
 }
