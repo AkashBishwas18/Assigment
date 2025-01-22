@@ -2,15 +2,18 @@
     background-color: white;
     width: auto;
 }
+.header{
+    margin-left: 25px;
+}
 .Details{
-    margin-left: 110px;
+    margin-left: 120px;
     padding: 5px;
     list-style: none;
     display: flex;
 }
 .items-1{
     margin-left: 30px;
-    color:orange ;
+    color: orange;
 }
 .items-2{
     margin-left: 30px;
@@ -25,7 +28,7 @@
     color: #5D58EF;
 }
 .header-btn{
-    margin-left: 120px;
+    margin-left: 132px;
     width: 110px;
     height: 30px;
     align-items: center;
@@ -58,10 +61,10 @@
 */
 .section{
     display: flex;
-    margin-left: 100px;
+    margin-left: 30px;
 }
 .image{
-    margin-left: 100px;
+    margin-left: 170px;
     height: 400px;
     width: 350px;
 }
@@ -146,3 +149,163 @@
     text-align: center;
     margin-top: 30px;
 }
+/* -- New Section --*/
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width:1200px;
+  margin: 0 auto;
+  margin-left: -20PX;
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+ overflow: hidden
+}
+
+.card-image {
+  position: relative;
+  width:500px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.card-image img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.date-badge {
+    position: absolute;
+    top: 272px;
+    left: 5px;
+    background-color: #1abc9c;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 25px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 16px;
+  margin: 10px;
+  color: #333333;
+  font-weight: bold;
+}
+
+.card-description {
+  font-size: 14px;
+  color: #666666;
+  line-height: 1.6;
+}
+/* Footer Section Start */
+.foot{
+    text-align: center;
+}
+.new-foot{
+    width: 120px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+/* last Section --*/
+.Header-design-1{
+    background-color: rgb(18, 219, 195);
+    width: auto;
+}
+.header-1{
+    margin-left: 10px;
+    background-color: #9196e2;
+    display: flex;
+    margin-top: 20px;
+    opacity: 0.8;
+}
+.Details-1{
+    margin-left: 120px;
+    padding: 5px;
+    list-style: none;
+    
+}
+.items-5{
+    margin-left: 30px;
+   color: white;
+}
+.items-6{
+    margin-left: 30px;
+    color: white ;
+}
+.items-7{
+    margin-left: 30px;
+    color: white;
+}
+.items-8{
+    margin-left: 30px;
+    color: white;
+}
+.header-btn{
+    margin-left: 120px;
+    width: 110px;
+    height: 30px;
+    align-items: center;
+    margin-top: 18px;
+    background-color: orange;
+    border: none;
+    border-radius: 5PX;
+   color: azure;
+}
+.load{
+    height: 90px;
+    margin-top: 30px;
+}
+.name-1{
+    color: rgb(235, 241, 247);
+    margin-top: 60px;
+}
+.rest{
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.done{
+    margin-left: 200px;
+}
+.door-1{
+    margin-left: 180px;
+    width: 40px;
+    height: 40px;
+    margin-top: 50px;
+    padding: 5px;
+}
+.door-2{
+    width: 40px;
+    height: 40px;
+    margin-top: 50px;
+    padding: 5px;
+}
+
+.door-3{
+    width: 40px;
+    height: 40px;
+    margin-top: 50px;
+    padding: 5px;
+}
+
+.door-4{
+    width: 40px;
+    height: 40px;
+    margin-top: 50px;
+    padding: 5px;
+    
+}
+
